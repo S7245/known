@@ -23,7 +23,7 @@ module.exports = {
     theme: defaultTheme({
         logo: '/favicon.png',
         navbar: navbarFun(),
-        //sidebar: sidebarFun(),
+        sidebar: sidebarFun(),
     }),
 }
 
@@ -33,14 +33,15 @@ function navbarFun() {
         { text: '首页', link: '/' },
         { text: '营销学', link: '/marketing/' },
         { text: '商业学', link: '/bp/' },
+        { text: '技能树', link: '/tree/' },
     ];
 }
 
 /* 侧边菜单栏 */
 function sidebarFun() {
     return {
-        '/marketing/': [{
-            text: '营销'
-        }],
+        '/tree/': [
+            '/tree/swim.md'
+        ]
     };
 }
