@@ -33,7 +33,13 @@ function navbarFun() {
         { text: '首页', link: '/' },
         { text: '营销学', link: '/marketing/' },
         { text: '商业学', link: '/bp/' },
-        { text: '技能树', link: '/tree/' },
+        {
+            text: '集合',
+            children: [
+                { text: '技能树', link: '/tree/' },
+                { text: '健身', link: '/fitness/' },
+            ]
+        }
     ];
 }
 
