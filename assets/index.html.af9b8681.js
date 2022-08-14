@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as _,a as c}from"./app.7a030961.js";const n={},o=c("p",null,"\u5B66\u4E60\uFF1A\u8425\u9500\u5B66\u3001\u5546\u4E1A\u6A21\u5F0F\u3001\u6295\u8D44\u5B66\u4E60\u7B49",-1),s=[o];function a(r,l){return t(),_("div",null,s)}var i=e(n,[["render",a],["__file","index.html.vue"]]);export{i as default};
