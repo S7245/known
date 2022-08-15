@@ -48,6 +48,9 @@ function sidebarFun() {
     return {
         '/tree/': [
             '/tree/swim.md'
+        ],
+        '/fitness/': [
+            '/fitness/fitfood.md'
         ]
     };
 }
